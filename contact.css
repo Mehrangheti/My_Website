@@ -1,0 +1,210 @@
+*{
+   font-family: sans-serif;
+    
+}
+body{
+    
+    color: white;
+    background-color:rgba(2, 0, 7, 0.904) ;
+}
+.logo img{
+    width: 100px;
+}
+
+
+
+.nav-item{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    width: 80%;
+    margin: auto;
+    
+}
+
+.content{
+    color: white;
+    text-align: center;
+
+}
+
+.bt{
+    background-color: transparent;
+    height: 35px;
+    color: rgba(2, 171, 238, 0.973);
+    border: 1px white;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 17px;
+    border: 1px solid white;
+    margin: 5px;
+}
+
+@keyframes animate {
+    0%{
+        transform: rotateZ(-15deg);
+    }
+    
+    50%{
+        transform: rotateZ(0deg);
+
+    }
+    100%{
+        transform: rotateZ(15deg);
+    }
+}
+.bt:hover{
+    background-color:rgba(4, 174, 241, 0.1)  ;
+   
+    border: hidden;
+    color: white;
+    animation: animate 1s linear infinite;
+    
+}
+
+.nav-item:hover{
+    color:rgba(0, 122, 170, 0.973) ;
+}
+
+.container{
+    box-shadow: inset;
+    
+    margin: auto;
+    font-family:sans-serif;
+    height: 800px;
+    width: 100%;
+}
+.head{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+}
+.cont{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    box-shadow: 0 0 5px rgb(124, 122, 122);
+    width:900px;
+    height: 648px;
+    margin: auto;
+    font-size: 17px;
+    
+    
+}
+
+@media screen and (max-width: 700px) {
+    .cont {
+        grid-template-columns: 1fr;
+    }
+}
+
+.right img {
+    width: 100%;
+    
+}
+
+.left{
+    padding: 20px;
+}
+.table th{
+    text-align: left;
+    color: rgb(218, 218, 218);
+}
+
+.table tr{
+    
+    text-align: left;
+}
+.form input{
+    
+    padding: 10px;
+    border-top:hidden ;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    display: block;
+    width: 80%;
+    outline: none;
+   background-color: transparent;
+   font-size: 17px;
+}
+
+
+
+.form textarea{
+    outline: none;
+    padding: 10px;
+    border-top:hidden ;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    display: block;
+    width: 80%;
+    height: 70px;
+    background-color: transparent;
+    font-size: 17px;
+}
+
+.form button{
+    background-color: transparent;
+    height: 50px;
+    color: rgba(2, 171, 238, 0.973);
+    border: 1px white;
+    width: 150px;
+    border-radius: 5px;
+    font-size: 17px;
+    border: 1px solid white;
+    margin: 5px;
+}
+.form:hover button{
+    background-color:rgba(4, 174, 241, 0.1)  ;
+   
+    border: hidden;
+    color: white;
+    
+}
+
+.hh{
+    padding-left: 5px;
+}
+
+.i{
+    display: inline;
+    padding: 5px;
+    color: rgb(204, 200, 200);
+    font-size: 12px;
+}
+
+.h{
+    font-size: 25px;
+}
+
+
+.footer {
+    margin: auto;
+    color: white;
+    text-align: center;
+    width:  80%;
+    color: gray;
+}
+
+.footer p{
+    font-size: 15px;
+}
+
+.social img{
+    width: 30px;
+    margin: auto;
+    padding: 10px;
+    
+}
+
+
+
+
